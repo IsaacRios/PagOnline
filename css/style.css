@@ -1,0 +1,80 @@
+body{
+		background-color: #ECE2D0;
+}
+.barra1{
+	background-color: #6B1616;
+	width: 100%;
+	min-width: 450px;
+	height: 90px;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 40px;
+	padding-bottom: 4px;
+}
+#titlep{
+color: #ECE2D0;
+font-size: 12px;
+}
+
+#section2, #section3, #section4{
+	min-width: 450px;
+	min-height: 600px;
+	margin: auto 0;
+
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 0 20px(0,0,0,0.4);
+	-moz-box-shadow: 0 0 20px(0,0,0,0.4);
+	position:relative;
+}
+
+#section1{	
+	background-image: url("images/fondo1.jpg");
+	background-repeat: no-repeat;
+  	height: 500px;
+}
+.sec1{
+	padding-top: 10%;
+
+}
+
+#section2{
+	background-color:#CC8B86 ;
+	color: #ECE2D0;
+}
+#section3{
+	background-color:#031926 ;
+}
+#section4{
+	background-color:#ECE2D0;
+}
+#footer{
+	background-color: #919098;
+	min-width: 450px;
+	min-height: 300px;
+}
+
+.quitar-float{
+	float: none;
+}
+
+.retraso-1{
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+	animation-delay:1s;
+
+}
+.retraso-2{
+	animation-delay:2s;
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2;
+}
+.retraso-3{
+	animation-delay:3s;
+	-webkit-animation-delay:3s;
+	-moz-animation-delay:3s;
+}
+.retraso-4{
+	animation-delay:4s;
+	-webkit-animation-delay:4s;
+	-moz-animation-delay:4s;
+}
